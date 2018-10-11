@@ -53,7 +53,7 @@ public class firstPage extends AppCompatActivity {
         } else {
             Toast.makeText(getApplicationContext(), "login sucessfull", Toast.LENGTH_SHORT).show();
 
-            Intent intent = new Intent(firstPage.this, Home.class);
+            Intent intent = new Intent(firstPage.this, home1.class);
             intent.putExtra("home", username);
             startActivity(intent);
             finish();
